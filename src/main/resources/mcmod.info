@@ -1,0 +1,16 @@
+[
+{
+  "modid": "enchantmentdescriptions",
+  "name": "Enchantment Descriptions",
+  "description": "Gives enchantments descriptions on tooltips.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Dyonovan"],
+  "credits": "Sotetsu",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
