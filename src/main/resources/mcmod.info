@@ -1,14 +1,14 @@
 [
 {
-  "modid": "enchantmentdescriptions",
-  "name": "Enchantment Descriptions",
+  "modid": "Named Enchantments",
+  "name": "Named Enchantment",
   "description": "Gives enchantments descriptions on tooltips.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["Dyonovan"],
-  "credits": "Sotetsu",
+  "credits": "Sotetsu, silverpheonix3000",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
