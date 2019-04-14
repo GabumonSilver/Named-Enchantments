@@ -40,3 +40,6 @@ namedenchantments:enchant.witherweapon=-Applied withering to target (Melee Weapo
 namedenchantments:enchant.soulbound=-Prevents items from being lost on death
 namedenchantments:enchant.witherarrow=-Applies withering to the target (Bows)
 namedenchantments:enchant.autosmelt=-Smelts whatever is mined
+
+# soul shards respawn
+namedenchantments:enchant.soul_stealer=-Adds an additional soul per level

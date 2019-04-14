@@ -165,7 +165,12 @@ public class ChangeToolTip {
                                             break;
                                     }
                                 }
-                                //NamedEnchantments.LOGGER.warn("Missing enchantment from " + modid + " with name " + name);
+                                //Soul Shards Respawn
+                                if (modid.equalsIgnoreCase("soulshardsrespawn")) {
+                                    if (name.equalsIgnoreCase("soul_stealer")) {
+                                        tooltip.add(I18n.format("namedenchantments:enchant.soul_stealer"));
+                                    }
+                                }
                         }
                     }
                 }

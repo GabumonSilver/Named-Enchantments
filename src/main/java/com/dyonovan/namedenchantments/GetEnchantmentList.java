@@ -33,7 +33,7 @@ public class GetEnchantmentList implements ICommand {
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
         for (Enchantment enchantment : Enchantment.REGISTRY) {
-            NamedEnchantments.LOGGER.warn(enchantment.getName());
+            NamedEnchantments.LOGGER.warn(enchantment.getRegistryName().getResourceDomain() + "-" + enchantment.getName());
         }
     }
 
