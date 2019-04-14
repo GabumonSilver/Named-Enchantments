@@ -32,3 +32,11 @@ namedenchantments:enchant.lure=-Increases the rate of fish biting your hook
 namedenchantments:enchant.mending=-Uses xp to mend your tools, weapons and armor
 namedenchantments:enchant.vanishing=-Cursed item will disappear after player dies
 
+# enderio/endercore
+namedenchantments:enchant.xpboost=-Extra XP form mobs and drops
+namedenchantments:enchant.repellent=-Chance to teleport attackers away
+namedenchantments:enchant.shimmer=-Makes item shimmer as if it were enchanted
+namedenchantments:enchant.witherweapon=-Applied withering to target (Melee Weapons)
+namedenchantments:enchant.soulbound=-Prevents items from being lost on death
+namedenchantments:enchant.witherarrow=-Applies withering to the target (Bows)
+namedenchantments:enchant.autosmelt=-Smelts whatever is mined

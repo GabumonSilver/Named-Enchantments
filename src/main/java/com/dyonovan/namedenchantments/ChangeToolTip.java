@@ -5,10 +5,12 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.client.settings.KeyBinding;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import java.util.List;
@@ -29,8 +31,7 @@ public class ChangeToolTip {
             NBTTagCompound tagCompound = itemStack.getTagCompound();
             NBTTagList tagList = null;
 
-            if (tagCompound.hasKey("StoredEnchantments") || tagCompound.hasKey("ench")) {
-
+            if (tagCompound != null && (tagCompound.hasKey("StoredEnchantments") || tagCompound.hasKey("ench"))) {
 
                 if (tagCompound.hasKey("StoredEnchantments")) {
                     tagList = tagCompound.getTagList("StoredEnchantments", 10);
@@ -136,6 +137,35 @@ public class ChangeToolTip {
                             case 71:
                                 tooltip.add(I18n.format("namedenchantments:enchant.vanishing"));
                                 break;
+                            default:
+                                String name = Enchantment.getEnchantmentByID(s).getRegistryName().getResourcePath();
+                                String modid = Enchantment.getEnchantmentByID(s).getRegistryName().getResourceDomain();
+                                if (modid.equalsIgnoreCase("endercore") || modid.equalsIgnoreCase("enderio")) {
+                                    switch (name) {
+                                        case "xpboost":
+                                            tooltip.add(I18n.format("namedenchantments:enchant.xpboost"));
+                                            break;
+                                        case "repellent":
+                                            tooltip.add(I18n.format("namedenchantments:enchant.repellent"));
+                                            break;
+                                        case "shimmer":
+                                            tooltip.add(I18n.format("namedenchantments:enchant.shimmer"));
+                                            break;
+                                        case "witherweapon":
+                                            tooltip.add(I18n.format("namedenchantments:enchant.witherweapon"));
+                                            break;
+                                        case "soulbound":
+                                            tooltip.add(I18n.format("namedenchantments:enchant.soulbound"));
+                                            break;
+                                        case "witherarrow":
+                                            tooltip.add(I18n.format("namedenchantments:enchant.witherarrow"));
+                                            break;
+                                        case "autosmelt":
+                                            tooltip.add(I18n.format("namedenchantments:enchant.autosmelt"));
+                                            break;
+                                    }
+                                }
+                                //NamedEnchantments.LOGGER.warn("Missing enchantment from " + modid + " with name " + name);
                         }
                     }
                 }
