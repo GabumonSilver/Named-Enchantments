@@ -43,3 +43,13 @@ namedenchantments:enchant.endercore.autosmelt=-Smelts whatever is mined
 
 # soul shards respawn
 namedenchantments:enchant.soulshardsrespawn.soul_stealer=-Adds an additional soul per level
+
+# cofh core
+namedenchantments:enchant.cofhcore.leech=-Heals the user when a mob or player dies
+namedenchantments:enchant.cofhcore.vorpal=-Greatly increases damage and a chance to drop mob or player heads
+namedenchantments:enchant.cofhcore.insight=-Increases the amount of experience gained when using a tool, sword or bow
+namedenchantments:enchant.cofhcore.smelting=-Instantly smelt the drops of broken blocks.
+namedenchantments:enchant.cofhcore.multishot=-Bows shoot multiple arrows at once, at the cost of only one arrow
+namedenchantments:enchant.cofhcore.holding=-Increases the storage capacity of certain items and blocks that store things.
+namedenchantments:enchant.cofhcore.smashing=-Instantly crush broken ore blocks into multiple piles of dust
+namedenchantments:enchant.cofhcore.soulbound=-Prevents items from being dropped when a player dies
