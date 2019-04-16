@@ -6,6 +6,7 @@ import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 
 import javax.annotation.Nullable;
@@ -33,7 +34,8 @@ public class GetEnchantmentList implements ICommand {
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
         for (Enchantment enchantment : Enchantment.REGISTRY) {
-            NamedEnchantments.LOGGER.warn(enchantment.getRegistryName().getResourceDomain() + "-" + enchantment.getName());
+            ResourceLocation enchant = enchantment.getRegistryName();
+            NamedEnchantments.LOGGER.warn(enchant.getResourceDomain() + "-" + enchant.getResourcePath());
         }
     }
 
