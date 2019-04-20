@@ -1,0 +1,55 @@
+namedenchantments:tooltip.activate=Druk op %s%s%s voor een omshrijving van de betovering.
+
+#minecraft
+namedenchantments:enchant.minecraft.protection=-Algemene bescherming tegen aanvallen, vuur, lava en vallen
+namedenchantments:enchant.minecraft.fire_protection=-Vermindert schade door vuur en lava
+namedenchantments:enchant.minecraft.feather_falling=-Vermindert val-en-teleportatie schade
+namedenchantments:enchant.minecraft.blast_protection=-Vermindert explosieschade
+namedenchantments:enchant.minecraft.projectile_protection=-Vermindert projectielschade
+namedenchantments:enchant.minecraft.respiration=-Verlengt de tijd dat je onderwater kunt ademen
+namedenchantments:enchant.minecraft.aqua_affinity=-Versnelt hoe snel je blokken kunt breken onderwater
+namedenchantments:enchant.minecraft.thorns=-Veroorzaakt schade aan aanvallers
+namedenchantments:enchant.minecraft.depth_strider=-Versnelt hoe snel je onderwater kunt bewegen
+namedenchantments:enchant.minecraft.frost_walker=-Bevriest water waar je op loopt
+namedenchantments:enchant.minecraft.binding_curse=-Vervloekt voorwerp kan niet uitgedaan worden
+namedenchantments:enchant.minecraft.sharpness=-Zorgt ervoor dat je meer schade doet
+namedenchantments:enchant.minecraft.smite=-Zorgt ervoor dat je meer schade doet aan  ondode vijanden
+namedenchantments:enchant.minecraft.bane_of_arthropods=-Zorgt ervoor dat je meer schade doet aan spinnen
+namedenchantments:enchant.minecraft.knockback=-Zendt vijanden naar achter
+namedenchantments:enchant.minecraft.fire_aspect=-Steekt je vijand in de fik
+namedenchantments:enchant.minecraft.looting=-Meer loot bij het doden van vijanden
+namedenchantments:enchant.minecraft.sweeping=-Meer schade bij sweep aanvallen
+namedenchantments:enchant.minecraft.efficiency=-Zorgt ervoor dat je sneller blokken breekt
+namedenchantments:enchant.minecraft.silk_touch=-Zorgt ervoor dat blokken die je mijnt zichzelf laten vallen
+namedenchantments:enchant.minecraft.unbreaking=-Zorgt ervoor dat het voorwerp langer meegaat
+namedenchantments:enchant.minecraft.fortune=-Zorgt ervoor dat er meer drops uit blokken die je mijnt komen
+namedenchantments:enchant.minecraft.power=-Zorgt ervoor dat de boog meer schade doet
+namedenchantments:enchant.minecraft.punch=-Zorgt ervoor dat je vijanden meer naar achter worden gezonden
+namedenchantments:enchant.minecraft.flame=-Pijlen worden pijlen die in de fik staan
+namedenchantments:enchant.minecraft.infinity=-Zorgt ervoor dat je maar 1 pijl nodig hebt voor een oneindig aantal pijlen
+namedenchantments:enchant.minecraft.luck_of_the_sea=-Meer kans op waardevolle voorwerpen tijdens het vissen
+namedenchantments:enchant.minecraft.lure=-Meer vissen zullen aan de lijn bijten tijdens het vissen
+namedenchantments:enchant.minecraft.mending=-Gebruikt XP om het voorwerp te repareren
+namedenchantments:enchant.minecraft.vanishing_curse=-Vervloekt voorwerp zal verdwijnen na de dood van de speler
+
+# enderio/endercore
+namedenchantments:enchant.endercore.xpboost=-Meer XP bij het breken van blokken en het verslaan van mobs
+namedenchantments:enchant.enderio.repellent=-Geeft een kans om aanvallers weg te teleporteren
+namedenchantments:enchant.enderio.shimmer=-Geeft het voorwerp een glans alsof het betoverd was
+namedenchantments:enchant.enderio.witherweapon=-Withert je vijand (melee wapens)
+namedenchantments:enchant.enderio.soulbound=-Prevents items from being lost on death
+namedenchantments:enchant.enderio.witherarrow=-Withert je vijand (bogen)
+namedenchantments:enchant.endercore.autosmelt=-Smelt de blokken die je breekt
+
+# soul shards respawn
+namedenchantments:enchant.soulshardsrespawn.soul_stealer=-Voegt een extra ziel toe per niveau
+
+# cofh core
+namedenchantments:enchant.cofhcore.leech=-Heelt de gebruiker bij het verslaan van een vijand
+namedenchantments:enchant.cofhcore.vorpal=-Geeft veel meer schade en een grotere kans om hoofden te laten vallen van spelers en mobs
+namedenchantments:enchant.cofhcore.insight=-Geeft meer XP bij het gebruik van gereedschap en wapens
+namedenchantments:enchant.cofhcore.smelting=-Smelt automatisch wat een blok laat vallen als je het breekt
+namedenchantments:enchant.cofhcore.multishot=-Bogen schieten meerdere pijlen voor de kost van maar een pijl
+namedenchantments:enchant.cofhcore.holding=-Zorgt voor meer ruimte in bepaalde opslagvoorwerpen
+namedenchantments:enchant.cofhcore.smashing=-Verandert erts automatisch in gruis wanneer je het breekt
+namedenchantments:enchant.cofhcore.soulbound=-Zorgt ervoor dat nadat de speler sterft het voorwerp bij de speler blijft
