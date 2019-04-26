@@ -1,17 +1,17 @@
 namedenchantments:tooltip.activate=Hold %s%s%s for enchantment descriptions.
 
 #minecraft
-namedenchantments:enchant.minecraft.protection=-General protection against attacks, fire, lava, and falling
-namedenchantments:enchant.minecraft.fire_protection=-Reduces damage caused by fire and lava
-namedenchantments:enchant.minecraft.feather_falling=-Reduces fall and teleportation damage
-namedenchantments:enchant.minecraft.blast_protection=-Reduces blast and explosion damage
-namedenchantments:enchant.minecraft.projectile_protection=-Reduces projectile damage
-namedenchantments:enchant.minecraft.respiration=-Extends underwater breathing
-namedenchantments:enchant.minecraft.aqua_affinity=-Speeds up how fast you can mine blocks underwater
-namedenchantments:enchant.minecraft.thorns=-Causes damage to attackers
-namedenchantments:enchant.minecraft.depth_strider=-Speeds up how fast you can move underwater
-namedenchantments:enchant.minecraft.frost_walker=-Freezes water into ice so that you can walk on it
-namedenchantments:enchant.minecraft.binding_curse=-Cursed item can not be removed from player
+namedenchantments:enchant.minecraft.proteccion=- Proteccion en general de ataques, caida o lava
+namedenchantments:enchant.minecraft.proteccion_ignifugo=-Reduccion en el daño de fuego y lava
+namedenchantments:enchant.minecraft.caida_de_pluma=-Reduccion en el daño inflinguido en caida y daño al teletransportarse
+namedenchantments:enchant.minecraft.proteccion_contra_explosiones=-Reduccion al daño emitido de explosiones
+namedenchantments:enchant.minecraft.proteccion_contra projectiles=-Reduccion al daño de projectiles
+namedenchantments:enchant.minecraft.respiracion=-Extiende el efecto de respiracion bajo el agua
+namedenchantments:enchant.minecraft.afinidad_del_agua=-Agiliza la rapidez al romper bloques
+namedenchantments:enchant.minecraft.espinas=-Causa daño a los atacantes
+namedenchantments:enchant.minecraft.caminador_de_las_profundifades=-Agiliza la rapidez bajo en el agua
+namedenchantments:enchant.minecraft.caminante_helado=-Congela los bloques de agua
+namedenchantments:enchant.minecraft.maldicion_de_vinculac=-Cursed item can not be removed from player
 namedenchantments:enchant.minecraft.sharpness=-Increases attack damage dealt to mobs
 namedenchantments:enchant.minecraft.smite=-Increases attack damage against undead mobs
 namedenchantments:enchant.minecraft.bane_of_arthropods=-Increases attack damage against spiders
